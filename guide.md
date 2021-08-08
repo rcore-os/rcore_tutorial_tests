@@ -1,8 +1,28 @@
-# OS实验的测试要求(v0.1)
+# OS实验的测试要求(v0.2)
 
 ### 概述
 
-实现指导见 rcore_tutorial_book_v3，该文档仅解释测试程序。在实现文件系统之前，你应当以合适的方式（可参考知道书或者样例实现）将测试文件置于内存中某一个位置并设法运行。
+实现指导书见 [rcore_tutorial_book_v3](https://rcore-os.github.io/rCore-Tutorial-Book-v3/index.html)，该文档仅解释测试程序。在实现文件系统之前，你应当以合适的方式（可参考 [rcore_tutorial_book_v3](https://rcore-os.github.io/rCore-Tutorial-Book-v3/index.html)或者样例实现）将测试文件置于内存中某一个位置并设法运行。
+
+### 测试用例使用指导
+
+```shell
+cd YOUR_OS_LAB_DIRECTORY
+git checkout  CH-X-BRACNH # e.g. "git checkout ch7", means the oslab results of exercises in chapter 7
+git clone https://github.com/rcore-os/rcore_tutorial_tests.git
+cd rcore_tutorial_tests
+make test CHAPTER=X # e.g. "make test CHAPTER=7", means auto-test the oslab results in chapter 7
+## then got the test results
+...
+[PASS] Test link OK51135!
+[PASS] ch7 Usertests passed!
+[PASS] FAIL: T.T
+[PASS] Should cause error, Test 04_2 fail!
+
+Test passed: 27/27
+```
+
+
 
 ### 测试文件说明
 
