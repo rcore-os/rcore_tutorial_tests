@@ -3,11 +3,16 @@
 ### 简介
 这里的测试用例是用于[rCore Tutorial v3.5教程](https://rcore-os.github.io/rCore-Tutorial-Book-v3/index.html)中每一章后面的练习题测试。
 
+### 使用说明
+
+内容详见 [guide](./guide.md) 。
+
 ### 通知
 - 2021.03.10： make 命令经过优化，使用格式改为　`make all CHAPTER=x` 可获得第 x 章的测例。
 
 ### 说明
 - 可选项 2, 2_bad, 3_0, 3_1, 3_2, 4, 5, 6, 7, x_only (x in 4, 5, 6, 7)。
+  
   > x_only 仅生成 chx 的测例，用来单独测试该章节测例
 
 **重要**-加载地址更新：
@@ -24,4 +29,4 @@ lab5 默认加载程序的说明：
 
 可以在 `user/build/asm` 目录下查看汇编来确认加载地址。
 
-其他内容详见 [guide](./guide.md) 。
+
