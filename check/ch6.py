@@ -2,10 +2,10 @@ import base
 from ch5 import EXPECTED, NOT_EXPECTED
 
 EXPECTED += [
-    "mail0 test OK51135!",
-    "mail1 test OK51135!",
-    "mail2 test OK51135!",
-    "mail3 test OK51135!",
+    "mail0 test OK!",
+    "mail1 test OK!",
+    "mail2 test OK!",
+    "mail3 test OK!",
 ]
 
 TEMP = [

@@ -2,9 +2,9 @@ import base
 from ch6 import EXPECTED, NOT_EXPECTED
 
 EXPECTED += [
-    "Test file0 OK51135!",
-    "Test fstat OK51135!",
-    "Test link OK51135!",
+    "Test file0 OK!",
+    "Test fstat OK!",
+    "Test link OK!",
 ]
 
 TEMP = [

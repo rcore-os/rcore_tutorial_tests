@@ -2,10 +2,10 @@ import base
 from ch4 import EXPECTED, NOT_EXPECTED
 
 EXPECTED += [
-    r"Test getpid OK51135! pid = (\d+)",
-    "Test spawn0 OK51135!",
-    "Test wait OK51135!",
-    "Test waitpid OK51135!",
+    r"Test getpid OK! pid = (\d+)",
+    "Test spawn0 OK!",
+    "Test wait OK!",
+    "Test waitpid OK!",
 ]
 
 TEMP = [

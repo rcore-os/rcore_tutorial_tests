@@ -16,9 +16,9 @@ EXPECTED = [
     "AAAAAAAAAA [5/5]",
     "BBBBBBBBBB [5/5]",
     "CCCCCCCCCC [5/5]",
-    "Test write A OK51135!",
-    "Test write B OK51135!",
-    "Test write C OK51135!",
+    "Test write A OK!",
+    "Test write B OK!",
+    "Test write C OK!",
 ]
 
 if __name__ == '__main__':
